@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(19,107,160, 0.639);
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    height: 70px;
+}
+
+.nav-list {
+    float: right;
+    margin-top: 10px;
+    /* display: inline-block; this is an alternative to using float*/
+}
+
+.list-item {
+    display: inline-block;
+    background-color: #142c4b;
+    padding: 8px;
+    margin-right: 20px;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    color: #c70101;
+    /* float: left;
+    text-decoration: none; thia alternative to display property*/
+}
+
+.list-item a {
+    text-decoration: none;  
+}
+
+.list-item:hover {
+    background-color: #c70101;
+}
+
+.list-item a:hover {
+    color: #fff;
+}
+
+.list-item a:visited {
+    color: #000;
+}
+
+.banner {
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/Spiderman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
