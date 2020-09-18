@@ -6,7 +6,7 @@ body {
 .nav-bar {
     height: 70px;
     width: 100%;
-    background-color: rgba(19,107,160, 0.639);
+    background-color: rgba(4, 39, 60, 0.639);
     position: fixed;
     top: 0;
 }
@@ -57,3 +57,30 @@ body {
     background-size: cover;
 }
 
+.banner-text {
+    height: 100px;
+    width: 200px;
+    background-color: #c70101;
+}
+
+.banner-text h1 {
+    color: #fff;
+}
+
+.banner-text h1:hover {
+    background-color: rgb(4, 39, 60);
+}
+
+.column {
+    border: 3px solid #c70101;
+    height: 650px;
+    width: 47%;
+    float: left;
+    margin-left: 25px;
+}
+
+.box {
+    height: 280px;
+    width: 600px;
+    border: 3px solid #042703ca;
+}
