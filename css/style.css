@@ -1,6 +1,7 @@
 body {
     margin: 0;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-bar {
@@ -9,6 +10,7 @@ body {
     background-color: rgba(4, 39, 60, 0.639);
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -58,13 +60,21 @@ body {
 }
 
 .banner-text {
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 350px;
     background-color: #c70101;
+    position: absolute;
+    top: 300px;
+    right: 250px;
 }
 
 .banner-text h1 {
     color: #fff;
+    font-family: 'Gloria Hallelujah', cursive;
+    line-height: 1.1;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .banner-text h1:hover {
@@ -83,4 +93,28 @@ body {
     height: 280px;
     width: 600px;
     border: 3px solid #042703ca;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.col-box1 img {
+    height: 280px;
+    width: 100%;
+}
+
+.col-box2 img {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.column p {
+    padding: 20px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
 }
