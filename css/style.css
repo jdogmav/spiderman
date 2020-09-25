@@ -93,28 +93,75 @@ body {
     height: 280px;
     width: 600px;
     border: 3px solid #042703ca;
-    position: relative;
-    top: 25px;
-    left: 30px;
+    float: left;
 }
 
 .col-box1 img {
     height: 280px;
     width: 100%;
+    position: relative;
 }
 
 .col-box2 img {
     height: 200px;
     width: 500px;
-    position: absolute;
+    position: relative; 
     top: 40px;
     left: 50px;
 }
 
 .column p {
     padding: 20px;
+    line-height: 1.1;
+}
+
+.footer {
+    background-color: rgb(103, 141, 165);
+    height: 80px;
+    width: 100%;
+    clear: both;
+}
+
+.footer-col {
+    height: 80px;
+    width: 32%;
+    float: left;
+    margin-left: 18px;
+    text-align: center;
+}
+
+.button {
+    height: 20px;
+    width: 60px;
+}
+
+.fab {
+    font-size: 2em;
 }
 
 .fa-facebook-square {
     color: #3b5998;
 }
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.container {
+    height: 600px;
+    width: 75%;
+    background-color: dodgerblue;
+}
+
+label {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+}
+
+#contact-box {
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+}
+
